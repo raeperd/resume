@@ -5,6 +5,8 @@ import tailwind from '@astrojs/tailwind';
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://raeperd.github.io",
+  base: "/resume",
   integrations: [tailwind()],
   vite: {
     ssr: {
